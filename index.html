@@ -16,8 +16,17 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="assets/fontawesome/css/all.css">
         <style>
+            b {
+                color: #859900;
+            }
             figcaption {
                 font-size: medium;
+            }
+            .fragment.blur {
+                filter: blur(8px);
+            }
+            .fragment.blur.visible {
+                filter: none;
             }
             .fragment.highlight-my-green {}
             .fragment.highlight-my-green.visible {
@@ -36,8 +45,10 @@
                 </section>
                 <section>
                     <h2>What are we trying to achieve</h2>
-                    <p>We are making something for a purpose.</p>
+                    <p>We are making something for a <b>purpose</b>.</p>
                     <p>How do we measure progress?</p>
+                    <p class="fragment custom blur">We need <b>contributions</b>.</p>
+                    <p class="fragment custom blur">Is <b>facilitating</b> contributors the most important activity?</p>
                     <aside data-markdown class="notes">
                         - What is our goal?
                         - What is the most important metric of progress?
@@ -134,10 +145,10 @@
                 </section>
                 <section>
                     <h3>In The Turing Way</h3>
-                    <p><b>Very</b> diverse community</p>
-                    <p>Generally not software engineers</p>
-                    <p>Contributions are mostly prose</p>
-                    <p><b>All</b> people make valuable contributions and technical skills <b>is not</b> a measure of a contributors worth</p>
+                    <p>Very <b>diverse</b> community.</p>
+                    <p>Generally <b>not</b> software engineers.</p>
+                    <p>Contributions are mostly <b>prose</b>.</p>
+                    <p class="fragment custom blur"><b>Everyone</b> can make valuable contributions and technical skills <b>is not</b> a measure of a contributors worth.</p>
                     <aside data-markdown class="notes">
                         - _Very_ diverse community
                           - Educational and professional background
@@ -339,9 +350,9 @@
                 <section>
                     <h3>But know when to be strict</h3>
                     <ul>
-                        <li>Don't <b>knowingly</b> break CI</li>
-                        <li>Don't <b>knowingly</b> introduce bugs</li>
-                        <li>Don't introduce <b>problems</b> which you expect someone else to fix</li>
+                        <li>Don't <b>knowingly</b> break CI.</li>
+                        <li>Don't <b>knowingly</b> introduce bugs.</li>
+                        <li>Don't introduce <b>problems</b> which you expect <b>someone else</b> to fix.</li>
                     </ul>
                     <aside data-markdown class="notes">
                         - Keeping quality high introduces some pain, but saves a lot of pain in the long run
@@ -361,7 +372,7 @@
                     <section>
                         <ul>
                             <li>Infrastructure Working Group</li>
-                            <li>Alexandra Araujo Alvarez and Anne Lee Steele (Project and Community Managers)</li>
+                            <li><b>Alexandra Araujo Alvarez</b> and <b>Anne Lee Steele</b> (Project and Community Managers)</li>
                             <li><a href="https://www.scriberia.com/">Scriberia</a>, who we work with to make the excellent, openly licensed, illustrations</li>
                             <li>All Turing Way team members and contributors!</li>
                         </ul>
