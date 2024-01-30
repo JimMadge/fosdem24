@@ -53,14 +53,12 @@
                     <p class="fragment custom blur">Is <b>facilitating</b> contributors the most important activity?</p>
                     <aside data-markdown class="notes">
                         - What is our goal?
-                        - What is the most important metric of progress?
-                            - Release cadence
-                            - Number of downloads
-                            - Community engagement
-                            - Impact
-                            - Good feelings
+                        - We work on projects for a reason
+                        - There are different measures of progress
+                            - Downloads, Stars, Good feelings
                         - The pitch
-                        - We need contributions, so perhaps facilitating contributions is our most important activity
+                            - We always need contributions
+                            - Perhaps facilitating contributions is our most important activity
                         - What is infrastructure?
                             - Here I mean the code, systems, processes, and people that support the project.
                     </aside>
@@ -92,14 +90,11 @@
                         <figcaption></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - Early interest in computers (can I get that picture)
-                        - Lost interest in school, I.T.
-                        - Studied Chemistry, MChem and PhD.
-                        - Regained interest in computers during degree
-                        - Exposed to FOSS and Linux in computational chemistry classes
-                        - Passionate about Linux and FOSS since
-                        - Now more confident with computers than chemistry, but not really a computer scientist
-                        - Make some contributions to The Turing Way, now a member of the infrastructure working group
+                        - This is what working on the book looks like for me
+                        - Early interest in computers
+                        - Exposed to FOSS and Linux in computational chemistry classes, passionate ever since
+                        - Now work as an RSE, definitely not a chemist but not really a computer scientist
+                        - From correcting typos/links to a co-lead of the infrastructure working group
                     </aside>
                 </section>
                 <section>
@@ -118,21 +113,20 @@
                     </figure>
                     <aside data-markdown class="notes">
                         - As maintainers, it is your job to ensure quality
-                        - Quality control processes can hinder contributions
+                        - Quality control necessarily adds some barrier
                         - Reviews can become adversarial
-                            - Link to David's pages on review?
                         - Critical feedback can be difficult, even off-putting for contributors
                         - There is a balance to be struck between enabling contributors and defending the project.
                     </aside>
                 </section>
                 <section>
-                    <h3>Heterogeneous contributors</h3>
+                    <h3>Diverse contributors</h3>
                     <figure>
                         <img src="static/community_exchange.jpg" width="60%" alt="">
                         <figcaption>Community Exchange by Scriberia. Used under CC-BY 4.0 <a href="https://doi.org/10.5281/zenodo.8169292">10.5281/zenodo.8169292</a></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - Diverse contributors with very different backgrounds with common goals
+                        - We have diverse contributors with very different backgrounds with common goals
                         - I see this particularly in different tools, tech knowledge, interaction with Git/GitHub
                         - To some extent you need to insist on common tools, but you don't want to create barriers
                         - We get _very_ opinionated about text editors and IDEs
@@ -146,18 +140,13 @@
                     <p class="fragment custom blur"><b>Everyone</b> can make valuable contributions and technical skills <b>is not</b> a measure of a contributors worth.</p>
                     <aside data-markdown class="notes">
                         - _Very_ diverse community
-                            - Educational and professional background
-                            - Age
-                            - Location
-                            - Language
-                            - Interests
-                            - Ethnicity
-                            - Lived experience
+                            - Educational and professional background, Age, Location, Language, Interests, Ethnicity, Lived experience
                         - Not generally software engineers
                             - Many have and will never build the book (and that is _fine_)
                             - Contributions will be make using many tools, from Vim to GitHub web interface
                         - Mostly text (inspection/review is more manual, no test suite for prose)
-                        - _All_ of these people make valuable contributions
+                        - Some culture clashes here...
+                        - However, _all_ of these people make valuable contributions
                             - Skill with programming does not tell us how good someone's contributions will be
                             - Therefore we need to remove barriers and enable contributors
                     </aside>
@@ -178,11 +167,11 @@
                     </figure>
                     <aside data-markdown class="notes">
                         - And, why _not_ DocuWiki, MediaWiki _etc._?
-                        - The advantages of version control are _too good_ to pass on
+                        - Simple answer, the advantages of version control are _too good_ to pass on
                             - Managing multiple contributions
                             - History
                             - Flexible (use whatever editor you want)
-                        - Review for _both_ quality control and lending assistance
+                        - Review promotes _both_ quality control and lending assistance
                         - Integrates naturally with automation and CI (checks, linting, validation)
                         - _Do as we say_. We promote best practice and working in the open and we mean it!
                     </aside>
@@ -192,7 +181,7 @@
                     <iframe src="https://the-turing-way.netlify.app/community-handbook/community-handbook" height="450" width="800"></iframe>
                     <aside data-markdown class="notes">
                         - Community Handbook
-                        - Book within a book
+                        - Book within a book, that tells you how to contribute
                             - Contribution guide
                             - Code of conducts
                             - Processes
@@ -211,13 +200,15 @@
                         <aside data-markdown class="notes">
                             - We value and recognise _all_ types of contributions
                             - _Not just code_, not just prose (not just authors)
-                            - all-contributors bot used to build table
-                            - Community members are encouraged to add themselves
-                            - Crowdin API used to get translation contributions
                         </aside>
                     </section>
                     <section>
                         <iframe src="https://the-turing-way.netlify.app/afterword/contributors-record#all-contributors" height="450" width="800"></iframe>
+                        <aside data-markdown class="notes">
+                            - all-contributors bot used to build table
+                            - This table is featured in the book!
+                            - Community members are encouraged to add themselves
+                        </aside>
                     </section>
                     <section>
                         <!-- <iframe src="https://github.com/the-turing-way/the-turing-way#crowdin-contributors" height="450" width="800"></iframe> -->
@@ -225,6 +216,9 @@
                             <img src="static/crowdin_contributors.png" width="80%" alt="">
                             <figcaption></figcaption>
                         </figure>
+                        <aside data-markdown class="notes">
+                            - Crowdin API used to get translation contributions
+                        </aside>
                     </section>
                 </section>
                 <section>
@@ -262,12 +256,10 @@
                         <figcaption>GitHub Actions by Scriberia. Used under CC-BY 4.0 <a href="https://doi.org/10.5281/zenodo.8169292">10.5281/zenodo.8169292</a></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - CI is the _source of truth_
-                            - One process for everyone
+                        - We use CI to _remove the burden_ of building and testing from users
                         - No complicated instructions for contributors
-                            - No need to build
-                            - No need to test
-                        - Automate regular tasks to free people for interesting work
+                        - CI is the _source of truth_, one process for everyone
+                        - Automate regular, _boring_ tasks to free people for _interesting_ work
                     </aside>
                 </section>
                 <section>
@@ -276,6 +268,7 @@
                     <h2>What we do</h2>
                     <h2 class="fragment custom highlight-my-green">Lessons</h2>
                     <aside data-markdown class="notes">
+                        - My unoriginal lessons!
                     </aside>
                 </section>
                 <section>
@@ -285,10 +278,10 @@
                         <figcaption>Community by Scriberia. Used under CC-BY 4.0 <a href="https://doi.org/10.5281/zenodo.8169292">10.5281/zenodo.8169292</a></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - Build it and they may not come
-                        - You need to engage with your community
-                        - What can you do to enable them?
-                            - The answer will be different for different projects.
+                        - "Build it and they may not come"
+                        - You need to _engage_ with your community
+                        - Should think what you can do to enable them?
+                        - The answer will be different for different projects.
                         - _Which means you must …_
                     </aside>
                 </section>
@@ -310,10 +303,9 @@
                         <figcaption>Continuous Integration by Scriberia. Used under CC-BY 4.0 <a href="https://doi.org/10.5281/zenodo.8169292">10.5281/zenodo.8169292</a></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - What CI says is _the truth_
-                        - No arguments about _"it works for me"_
+                        - _"What CI says goes"_
+                        - It is fair, the same for everyone, no arguments about _"it works for me"_
                         - There is a _healthy level_ of quality control and you may need to iterate to find it
-                        - (Never intentionally break CI)
                     </aside>
                 </section>
                 <section>
@@ -323,25 +315,21 @@
                         <figcaption>Version Control by Scriberia. Used under CC-BY 4.0 <a href="https://doi.org/10.5281/zenodo.8169292">10.5281/zenodo.8169292</a></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - The advantages are _too strong_
-                            - Versioning/tagging
-                            - History
-                            - Bug bisecting
-                            - Managing many collaborators, out of sync contributions
+                        - Like I said before, the advantages are _too strong_
+                        - Particularly when you have many, distributed collaborators contributing asynchronously
                         - It is well _worth the cost_ of on-boarding and providing support
                     </aside>
                 </section>
                 <section>
-                    <h3>Be flexible</h3>
+                    <h3>Be flexible …</h3>
                     <figure>
                         <img src="static/article_types.jpg" width="60%" alt="">
                         <figcaption>Article Types by Scriberia. Used under CC-BY 4.0 <a href="https://doi.org/10.5281/zenodo.8169292">10.5281/zenodo.8169292</a></figcaption>
                     </figure>
                     <aside data-markdown class="notes">
-                        - Remember that your role is to _facilitate_ contributions
-                        - Remember that you are meeting them in the middle
-                        - _Don't let perfect be the enemy of good_
-                        - It is better to bend the rules a little or do something that "isn't my job" if it gets a good contribution merged
+                        - Remember, that your role is to _facilitate_ contributions
+                        - _"Don't let perfect be the enemy of good"_
+                        - It is better to bend the rules a little if it gets a good contribution merged
                         - A spelling or grammatical mistake could even make a great first issue
                     </aside>
                 </section>
@@ -353,11 +341,12 @@
                         <li>Don't introduce <b>problems</b> which you expect <b>someone else</b> to fix.</li>
                     </ul>
                     <aside data-markdown class="notes">
-                        - Keeping quality high introduces some _pain_ but saves a lot of pain in the long run
+                        - Here are some things you might decide not to compromise on
+                            - Should be as clear as possible
+                        - Keeping quality high introduces some _pain_ but saves more in the long run
                         - Remember to be _kind and respectful_ to contributors
                             - Even when giving _"bad news"_
                             - This is an opportunity to help people and make connections!
-                        - You could even codify this so that everyone knows the unbreakable rules upfront
                     </aside>
                 </section>
                 <section>
@@ -378,13 +367,15 @@
                            <img src="static/jim.jpg" height="200px">
                            <!--Sarah Gibson-->
                            <img src="static/sarah.jpg" height="200px">
+                        <aside data-markdown class="notes">
+                            - All the Infra WG members
+                        </aside>
                     </section>
                     <section>
                            <p><b>Alexandra Araujo Alvarez</b> and <b>Anne Lee Steele</b> (Project and Community Managers)</p>
                            <p><a href="https://www.scriberia.com/">Scriberia</a>, who we work with to make the excellent, openly licensed, illustrations</p>
-                           <p>All Turing Way team members and contributors!</p>
+                           <p><b>All</b> Turing Way team members and contributors!</p>
                         <aside data-markdown class="notes">
-                            - All the Infra WG members
                             - Alé and Anne
                               - Recognised the need for Infra WG
                               - Invited members
@@ -411,7 +402,10 @@
                     <i class="fa-solid fa-ticket"></i> <a href="https://github.com/the-turing-way/the-turing-way/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22">Good First Issues</a></br>
                     <i class="fa-solid fa-person-running"></i> <a href="https://the-turing-way.netlify.app/community-handbook/bookdash.html">Book Dashes</a></br>
                     <aside data-markdown class="notes">
-                        - Call to action
+                        - If the book sounds interesting to you, we'd love you to join us
+                        - Read the book
+                        - Join our community channels
+                        - Opportunities to get involved in contributing
                     </aside>
                 </section>
             </div>
