@@ -1,5 +1,8 @@
 # Bridging contributor's knowledge and the technology of The Turing Way, an open guide for data science
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10624870.svg)](https://doi.org/10.5281/zenodo.10624870)
+
+
 A lightning talk, giving a personal perspective on enabling contributors in The Turing Way.
 Presented at the Open Research devroom at FOSDEM24.
 
